@@ -1,0 +1,60 @@
+absl-py==0.9.0
+aniso8601==8.1.0
+astor==0.8.1
+beautifulsoup4==4.9.1
+certifi==2020.6.20
+chardet==3.0.4
+click==7.1.2
+cloudpickle==1.6.0
+cycler==0.10.0
+dask==2.25.0
+decorator==4.4.2
+Flask==1.1.2
+Flask-RESTful==0.3.8
+gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+graphviz==0.14.1
+grpcio==1.12.1
+h5py==2.7.1
+idna==2.10
+importlib-metadata @ file:///C:/ci/importlib-metadata_1593431910144/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing==1.1.0
+kiwisolver==1.2.0
+Markdown @ file:///C:/ci/markdown_1597433297037/work
+MarkupSafe==1.1.1
+matplotlib==3.3.1
+mkl-fft==1.1.0
+mkl-random==1.1.0
+mkl-service==2.3.0
+networkx==2.5
+numpy @ file:///C:/ci/numpy_and_numpy_base_1596233948451/work
+opencv-python==4.4.0.46
+pandas==1.1.4
+Pillow==7.2.0
+protobuf==3.13.0
+pydot==1.4.1
+pydot-ng==2.0.0
+pydotplus==2.0.2
+pymongo==3.9.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.4
+PyWavelets==1.1.1
+PyYAML==5.3.1
+requests==2.24.0
+schedule==0.6.0
+scikit-image==0.14.2
+scipy @ file:///C:/ci/scipy_1597675683670/work
+selenium==3.141.0
+six==1.15.0
+soupsieve==2.1
+tensorboard==1.12.2
+tensorflow==1.12.0
+termcolor==1.1.0
+toolz==0.10.0
+urllib3==1.25.11
+Werkzeug==1.0.1
+wincertstore==0.2
+zipp==3.1.0
