@@ -1,7 +1,17 @@
-# A-Methodology-for-Utilizing-Vector-Space-to-Improve-the-Performance-of-a-Dog-Face-Identification
-A Methodology for Utilizing Vector Space to Improve the Performance of a Dog Face Identification Model
+# A Methodology for Utilizing Vector Space to Improve the Performance of a Dog Face Identification Model
 
-Recent improvements in the performance of the human face recognition model have led to the development of relevant products and services. However, research in the similar field of animal face identification has remained relatively limited due to the greater diversity and complexity in shape and the lack of relevant data for animal faces such as dogs. In the face identification model using triplet loss, the length of the embedding vector is normalized by adding an L2-normalization (L2-norm) layer for using cosine-similarity-based learning. As a result, object identification depends only on the angle, and the distribution of the embedding vector is limited to the surface of a sphere with a radius of 1. This study proposes training the model from which the L2-norm layer is removed by using the triplet loss to utilize a wide vector space beyond the surface of a sphere with a radius of 1, for which a novel loss function and its two-stage learning method. The proposed method classifies the embedding vector within a space rather than on the surface, and the model’s performance is also increased. The accuracy, one-shot identification performance, and distribution of the embedding vectors are compared between the existing learning method and the proposed learning method for verification. The verification was conducted using an open-set. The resulting accuracy of 97.33% for the proposed learning method is approximately 4% greater than that of the existing learning method.
+This repository is the official implementation of *A Methodology for Utilizing Vector Space to Improve the Performance of a Dog Face Identification Model*. We propose a triplet-loss-based embedding learning framework that eliminates L2-normalization, enabling discrimination within the entire embedding space rather than on a unit hypersphere, and achieves improved open-set dog face identification through a novel loss function and two-stage training scheme.
 
+## Requirements
+
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
+
+## Dataset
+
+This work uses the DogFaceNet dataset:
 
 Dataset reference: https://github.com/GuillaumeMougeot/DogFaceNet
