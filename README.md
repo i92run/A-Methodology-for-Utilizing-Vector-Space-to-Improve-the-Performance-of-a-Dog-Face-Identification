@@ -4,6 +4,7 @@ This repository is the official implementation of *A Methodology for Utilizing V
 
 <img src="/results_fig.png" width="672" height="320">
 
+
 ## Requirements
 
 To install requirements:
@@ -12,8 +13,25 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
+
 ## Dataset
 
 This work uses the DogFaceNet dataset:
 
 Dataset reference: https://github.com/GuillaumeMougeot/DogFaceNet
+
+
+## Citation
+
+```bib
+@article{yoon2021methodology,
+  title={A methodology for utilizing vector space to improve the performance of a dog face identification model},
+  author={Yoon, Bohan and So, Hyeonji and Rhee, Jongtae},
+  journal={Applied Sciences},
+  volume={11},
+  number={5},
+  pages={2074},
+  year={2021},
+  publisher={MDPI}
+}
+```
